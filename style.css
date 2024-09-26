@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); /* Importa la fuente 'Open Sans' */
+
+*, html { /* Aplica a todos los elementos y al elemento html */
+  box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+  font-family: 'Open Sans', sans-serif; /* Define 'Open Sans' como la fuente base */
+}
+
+html, body { /* Estilos para el html y el body */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+    background-image:url("img/fondo 2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+}
+
+main { /* Estilo para el elemento main */
+    display: -ms-flexbox
+        }
+
+    @font-face {
+    font-family: 'ArcadeClassic';
+    src:url(tipografia/arcade_ya/ARCADE_N.TTF)
+    format('truetype');
+    }
+    
+    .gif{ 
+        padding-left: 520px;
+        padding-top: 70px;
+    }
+    
+
+
+
+    h1 { /* Estilo para el título h1 */
+    font-family: 'ArcadeClassic';
+    font-size: 2em; /* Tamaño de fuente grande (4em) */
+    color: #fdcee3
+
+}
+
+.title { /* Estilo para el elemento con clase title */
+    grid-area: title; /* Asigna este elemento al área 'title' */
+    padding-top: 10px;
+    padding-left: 380px; /* Padding izquierdo de 30px */
+
+}
+
+.content { /* Estilo para el elemento con clase content */
+    padding-left: 100px; /* Sin padding */
+    padding-right: 460px;
+    text-align: justify; /* Justifica el texto */
+    word-break: normal; /* Permite el corte de palabras natural */
+    color:#987987
+}
+
+
+
+p { /* Estilo para párrafos p */
+    font-family: 'ArcadeClassic';
+    font-size: 15px; /* Tamaño de fuente de 18px */
+    color:#987987
+
+}
+#right { /* Estilo para el elemento con id right */
+    padding-left: 90px;
+    padding-right: 500px;
+
+}
+
+.proyectos { /* Estilo para el contenedor con clase proyectos */
+    display: grid; /* Activa el grid layout */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Tres columnas iguales */
+    column-gap: 10px; /* Espacio entre columnas de 30px */
+    row-gap: 10px; /* Espacio entre filas de 20px */
+    height: 270px; /* Altura fija de 450px */
+    overflow-y: auto; /* Activa el scroll vertical si es necesario */
+    
+}
+
+.proyectos nav { /* Estilo para el elemento nav dentro de .proyectos */
+    display: contents; /* Los hijos se comportan como si estuvieran directamente en el grid */
+}
+
+.proyectos a { /* Estilo para los enlaces dentro de .proyectos */
+    display: block; /* El enlace ocupa toda la columna */
+}
+.proyectos nav a img { /* Estilo para las imágenes dentro de los enlaces en .proyectos */
+    width: 100%; /* Imágenes ocupan todo el ancho del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 1ex; /* Margen inferior de 1ex */
+    border: 3px solid transparent; /* Borde de 3px invisible */
+}
+
+.proyectos nav a:hover img { /* Estilo hover para las imágenes en .proyectos */
+    filter: blur(5px); /* Desenfoque de 5px al pasar el ratón */
+    opacity: 90%; /* Reducción de la opacidad al 90% */
+}
+
+button { /* Estilo para los botones */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Padding de 10px arriba y abajo, 20px a los lados */
+    background-color: rgb(230, 230, 230); /* Color de fondo gris claro */
+    font-size: 14px; /* Tamaño de fuente de 14px */
+    font-weight: bold; /* Texto en negrita */
+    color: #fdcee3; /* Texto naranja */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de mano al pasar por encima */
+}
+
+button:hover { /* Estilo hover para los botones */
+    background-color: #fdcee3; /* Fondo cambia a naranja */
+    color: black; /* Texto cambia a negro */
+    font-weight: bold; /* Mantiene el texto en negrita */
+}
+
+
+
+
+    
+   
+
+  
+
+
+
+    
+
