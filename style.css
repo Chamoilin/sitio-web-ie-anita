@@ -117,6 +117,70 @@ button:hover { /* Estilo hover para los botones */
     font-weight: bold; /* Mantiene el texto en negrita */
 }
 
+/* Media queries para dispositivos pequeños (móviles) */
+@media (max-width: 768px) {
+    .title {
+      padding-left: 10px;
+    }
+  
+    .content {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .proyectos {
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas más pequeñas */
+    }
+  
+    .gif {
+      padding-left: 0;
+      padding-top: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5em; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+  
+    p {
+      font-size: 14px; /* Reducir el tamaño de la fuente de los párrafos */
+    }
+  
+    button {
+      font-size: 12px; /* Reducir el tamaño de los botones */
+    }
+  
+  /* Media queries para pantallas muy pequeñas (móviles más pequeños) */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2em; /* Reducir aún más el tamaño del título */
+    }
+  
+    .proyectos {
+      grid-template-columns: 1fr; /* Una sola columna para pantallas muy pequeñas */
+    }
+  
+    .content {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    button {
+      font-size: 10px; /* Asegurar que los botones no sean demasiado grandes */
+    }
+  }
+  
+  /* Media queries para pantallas más grandes (tabletas y notebook) */
+  @media (min-width: 769px) {
+    .title {
+      padding-left: 380px;
+    }
+  
+    .proyectos {
+      grid-template-columns: repeat(4, 1fr); /* Cuatro columnas para pantallas grandes */
+    }
+  }
+
+
 
 
 
