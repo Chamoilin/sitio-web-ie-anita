@@ -28,7 +28,7 @@ main { /* Estilo para el elemento main */
     }
     
     .gif{ 
-        padding-left: 520px;
+        padding-left: 350px;
         padding-top: 70px;
     }
     
@@ -45,7 +45,7 @@ main { /* Estilo para el elemento main */
 .title { /* Estilo para el elemento con clase title */
     grid-area: title; /* Asigna este elemento al área 'title' */
     padding-top: 10px;
-    padding-left: 380px; /* Padding izquierdo de 30px */
+    padding-left: 250px; /* Padding izquierdo de 30px */
 
 }
 
